@@ -1,4 +1,6 @@
-﻿namespace HomeWork
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace HomeWork
 {
     internal class Program
     {
@@ -39,6 +41,7 @@
             string permission1 = age > 18 ? "true" : "false";
 
             Console.WriteLine(permission1);
+            
         }
     }
 }

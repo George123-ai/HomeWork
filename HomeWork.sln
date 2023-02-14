@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork", "HomeWork\HomeWork.csproj", "{AEF99C5A-FD11-4E45-8600-C3D0932FE7BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork", "HomeWork\HomeWork.csproj", "{AEF99C5A-FD11-4E45-8600-C3D0932FE7BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWorkSaturday", "HomeWorkSaturday\HomeWorkSaturday.csproj", "{F2BF9800-DB48-463C-B613-38AAE3306978}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AEF99C5A-FD11-4E45-8600-C3D0932FE7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEF99C5A-FD11-4E45-8600-C3D0932FE7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEF99C5A-FD11-4E45-8600-C3D0932FE7BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BF9800-DB48-463C-B613-38AAE3306978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BF9800-DB48-463C-B613-38AAE3306978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BF9800-DB48-463C-B613-38AAE3306978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BF9800-DB48-463C-B613-38AAE3306978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
