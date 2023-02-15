@@ -1,4 +1,6 @@
-﻿namespace HomeWorkSaturday
+﻿using System.Runtime.InteropServices;
+
+namespace HomeWorkSaturday
 {
     internal class Program
     {
@@ -343,16 +345,86 @@
             //Console.WriteLine(add);
 
             // #157 ------------------------------------------
-            int sum = 0;
-            for (int i = 100; i < 1000; i++) 
+            //int sum = 0;
+            //for (int i = 100; i < 1000; i++) 
+            //{
+            //    if (i%5 != 0)
+            //    {
+            //        sum += i;
+            //    }
+            //}
+            //Console.WriteLine(sum);
+
+            // #158 ------------------------------------------
+            //long add = 1;
+            //for (int i = 100; i < 1000; i++)
+            //{
+            //    if (i % 2 != 0 && i % 3 != 0)
+            //    {
+            //        add *= i;
+            //    }
+            //}
+            //Console.WriteLine(add);
+
+            // #159 ------------------------------------------
+            //long add = 1;
+            //for (int i = 100; i < 1000; i++)
+            //{
+            //    if (i % 3 == 1 && i % 4 == 2)
+            //    {
+            //        add *= i;
+            //    }
+            //}
+            //Console.WriteLine(add);
+
+            // #160 ------------------------------------------
+            //int min = 0;
+            //for (int i = 1000; i >= 100; i--)
+            //{
+            //    for (int j = 1; j < 10000; j++)
+            //    {
+            //        if (i * 16 == j * j)
+            //        {
+            //            min = i;
+            //            break;
+            //        }
+
+            //    }
+
+            //}
+            //Console.WriteLine(min);
+
+            // #161 ------------------------------------------
+            //int min = 0;
+            //for (int i = 9999; i >= 1000; i--)
+            //{
+            //    for (int j = 1; j < 10000; j++)
+            //    {
+            //        if (i * 26 == j * j)
+            //        {
+            //            min = i;
+            //            break;
+            //        }
+
+            //    }
+
+            //}
+            //Console.WriteLine(min);
+
+            // #165
+            bool t = false;
+            Console.Write("Input n(bnakan): ");
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 0; i < 100; i++)
             {
-                if (i%5 != 0)
+                if (n == Math.Pow(3, i))
                 {
-                    sum += i;
+                    t = true;
+                    break;
                 }
+              
             }
-            Console.WriteLine(sum);
-            // hi
+            Console.WriteLine(t);
 
 
         }
