@@ -40,14 +40,39 @@ namespace Calculator
             {
                 Console.Clear();
 
-                Console.Write("Input first number: ");
-                num1 = float.Parse(Console.ReadLine());
-
-                Console.Write("Input second number: ");
-                num2 = float.Parse(Console.ReadLine());
-
-                Console.Write("Input operation: (+, -, *, /): ");
-                operation = Char.Parse(Console.ReadLine());
+                while (true)
+                {
+                    Console.Write("Input first number: ");
+                    bool num = float.TryParse(Console.ReadLine(), out num1);
+                    if (num)
+                    {
+                        break;
+                    }
+                }
+                //num1 = float.Parse(Console.ReadLine());
+                while (true)
+                {
+                    Console.Write("Input second number: ");
+                    bool num = float.TryParse(Console.ReadLine(), out num2);
+                    if (num)
+                    {
+                        break;
+                    }
+                }
+                //Console.Write("Input second number: ");
+                //num2 = float.Parse(Console.ReadLine());
+                while (true)
+                {
+                    Console.Write("Input operation: (+, -, *, /): ");
+                    //operation = Char.Parse(Console.ReadLine());
+                    bool op = char.TryParse(Console.ReadLine(), out operation);
+                    if (op && operation=='+' || op && operation == '-' || op && operation == '*'|| op && operation == '/')
+                    {
+                        break;
+                    }
+                }
+                //Console.Write("Input operation: (+, -, *, /): ");
+                //operation = Char.Parse(Console.ReadLine());
 
                 result = 0;
 
