@@ -378,21 +378,21 @@ namespace HomeWorkSaturday
             //Console.WriteLine(add);
 
             // #160 ------------------------------------------
-            //int min = 0;
-            //for (int i = 1000; i >= 100; i--)
-            //{
-            //    for (int j = 1; j < 10000; j++)
-            //    {
-            //        if (i * 16 == j * j)
-            //        {
-            //            min = i;
-            //            break;
-            //        }
+            int min = 0;
+            for (int i = 1000; i >= 100; i--)
+            {
+                for (int j = 1; j < 10000; j++)
+                {
+                    if (i * 16 == j * j)
+                    {
+                        min = i;
+                        break;
+                    }
 
-            //    }
+                }
 
-            //}
-            //Console.WriteLine(min);
+            }
+            Console.WriteLine(min);
 
             // #161 ------------------------------------------
             //int min = 0;
@@ -411,20 +411,44 @@ namespace HomeWorkSaturday
             //}
             //Console.WriteLine(min);
 
-            // #165
-            bool t = false;
-            Console.Write("Input n(bnakan): ");
-            int n = int.Parse(Console.ReadLine());
-            for (int i = 0; i < 100; i++)
-            {
-                if (n == Math.Pow(3, i))
-                {
-                    t = true;
-                    break;
-                }
-              
-            }
-            Console.WriteLine(t);
+            // #165 ------------------------------------------
+            //bool t = false;
+            //Console.Write("Input n(bnakan): ");
+            //int n = int.Parse(Console.ReadLine());
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    if (n == Math.Pow(3, i))
+            //    {
+            //        t = true;
+            //        break;
+            //    }
+
+            //}
+            //Console.WriteLine(t);
+
+            // #166 ------------------------------------------
+            //int y = 1;
+            ////int num = 4;
+            ////Console.WriteLine(Math.Pow(4,0));
+            //Console.Write("Input n(bnakan): ");
+            //int n = int.Parse(Console.ReadLine());
+            //for (int i = 0; i <= 100; i++)
+            //{
+            //    Console.WriteLine($"i = {i}, pow = {Math.Pow(4,i)}, n = {n}");
+            //    if (n != Math.Pow(4, i))
+            //    {
+            //        Console.WriteLine("hey you");
+            //        y = 0;
+            //        //break;
+            //    }
+
+            //}
+            //Console.WriteLine(y);
+
+
+
+
+
 
 
         }

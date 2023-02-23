@@ -41,6 +41,7 @@ namespace HomeWork
             string permission1 = age > 18 ? "true" : "false";
 
             Console.WriteLine(permission1);
+            //Console.ReadKey();
             
         }
     }
