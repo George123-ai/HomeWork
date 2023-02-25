@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork", "HomeWork\HomeWo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWorkSaturday", "HomeWorkSaturday\HomeWorkSaturday.csproj", "{F2BF9800-DB48-463C-B613-38AAE3306978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{8D105314-EA31-4807-BF12-DAC39F4F1067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{8D105314-EA31-4807-BF12-DAC39F4F1067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWorkClassesStructs", "HomeWorkClassesStructs\HomeWorkClassesStructs.csproj", "{6810C5A9-5DB8-4AE3-9CAD-9C6049D9F8F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8D105314-EA31-4807-BF12-DAC39F4F1067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D105314-EA31-4807-BF12-DAC39F4F1067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D105314-EA31-4807-BF12-DAC39F4F1067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6810C5A9-5DB8-4AE3-9CAD-9C6049D9F8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6810C5A9-5DB8-4AE3-9CAD-9C6049D9F8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6810C5A9-5DB8-4AE3-9CAD-9C6049D9F8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6810C5A9-5DB8-4AE3-9CAD-9C6049D9F8F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
