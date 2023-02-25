@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork", "HomeWork\HomeWork.csproj", "{AEF99C5A-FD11-4E45-8600-C3D0932FE7BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWorkSaturday", "HomeWorkSaturday\HomeWorkSaturday.csproj", "{F2BF9800-DB48-463C-B613-38AAE3306978}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWorkExersises", "HomeWorkSaturday\HomeWorkExersises.csproj", "{F2BF9800-DB48-463C-B613-38AAE3306978}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{8D105314-EA31-4807-BF12-DAC39F4F1067}"
 EndProject
