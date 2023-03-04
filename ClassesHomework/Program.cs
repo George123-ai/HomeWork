@@ -24,6 +24,7 @@
             //Console.WriteLine(Factorial(5));
             Human human = new Human();
             Console.WriteLine(human.Validation("fdsfj12dsjflkf"));
+            Console.WriteLine("...");
             //Human human = new Human(); // human class homework
             //string name, surname, nameSurname;
             //bool validation;
