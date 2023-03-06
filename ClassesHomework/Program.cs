@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        
         static public int? Nul1()
         {
             int? n = 5;
@@ -19,12 +20,53 @@
             return num * Factorial(num-1);
         }
 
+        static public int Sum(int num)
+        {
+            
+            if (num == 0)
+                return 0;
+
+            return num + Sum(num -1);
+        }
+
+
         static void Main(string[] args)
         {
-            //Console.WriteLine(Factorial(5));
-            Human human = new Human();
-            Console.WriteLine(human.Validation("fdsfj12dsjflkf"));
-            Console.WriteLine("...");
+            int n = 10;
+            Console.WriteLine(n); // 10
+
+            n++;
+            Console.WriteLine(n); // 11
+            
+            n += ++n;
+            Console.WriteLine(n); // 11 + 12 = 23
+            Console.WriteLine(n++); // 23
+            Console.WriteLine(n);  // 24
+                                 //Console.WriteLine(Sum(100));
+                                 ////Console.WriteLine(Factorial(5));\
+                                 //Random random= new Random();
+                                 //Struct1 struct1= new Struct1();
+
+            //Console.Write("Input length: ");
+            //int length = Convert.ToInt32(Console.ReadLine());
+            //int[] nums = new int[length];
+
+            //for (int i = 0; i < nums.Length; i++)
+            //{
+            //    nums[i] = random.Next(10, 100);
+            //}
+
+            //string[] numsStr = struct1.Change(nums);
+
+            ////for (int i = 0; i < numsStr.Length; i++)
+            ////{
+            ////    Console.Write($" {numsStr[i]} ");
+            ////}
+            ////Console.WriteLine();
+
+            //int a  7;
+            //Console.WriteLine();
+
             //Human human = new Human(); // human class homework
             //string name, surname, nameSurname;
             //bool validation;
@@ -56,6 +98,20 @@
             //Console.WriteLine(restaurant.sushi);
             //Console.WriteLine(restaurant.hotdog);
 
+        }
+    }
+    struct Struct1
+    {
+        public string[] Change(int[] numbers)
+        {
+            string[] result = new string[numbers.Length];
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                result[i] = Convert.ToString(numbers[i]);
+            }
+            
+            return result;
         }
     }
 }
