@@ -1,23 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Inheritance
+﻿namespace Inheritance
 {
     public class Car
     {
-        private int MinSpeed { get; } 
+        private int MinSpeed { get; }
 
         public string Color { get; set; }
 
         protected int MaxSpeed { get; set; }
 
-        public Car() 
+        public Car()
         {
             MinSpeed = 0;
             Color = "black";
