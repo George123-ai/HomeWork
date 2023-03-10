@@ -108,7 +108,8 @@
 
             for (int i = 0; i < numbers.Length; i++)
             {
-                result[i] = Convert.ToString(numbers[i]);
+                //result[i] = Convert.ToString(numbers[i]);
+                result[i] = numbers[i].ToString();
             }
             
             return result;
