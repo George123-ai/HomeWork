@@ -24,8 +24,22 @@
             Bmw bmw2 = new Bmw("red", 100);
             bmw2.PrintData();
 
-            M4 bmwM4 = new M4("Purple", 300);
+            Console.WriteLine("-------------------------------------");
+            M4 bmwM4 = new M4();
             bmwM4.PrintData();
+
+            Console.WriteLine("-------------------------------------");
+            Opel opel1 = new Opel();
+            opel1.PrintData();
+            opel1.OpelStart();
+            Console.WriteLine("-------------------------------------");
+
+            OpelZAfira zafira = new OpelZAfira();
+            zafira.PrintData();
+            zafira.OpelStart();
+            Console.WriteLine("-------------------------------------");
+
+
 
         }
     }

@@ -5,6 +5,7 @@
         public Bmw() : base()
         {
             Color = "Red";
+            Brand = "BMw";
         }
 
         public Bmw(string Color, int MaxSpeed)
